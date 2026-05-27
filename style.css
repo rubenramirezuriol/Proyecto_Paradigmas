@@ -47,12 +47,14 @@ ul { list-style: none; }
 .nav-links {
   display: flex;
   gap: 36px;
+  justify-content: space-between;
 }
 
 .nav-links a {
   color: var(--text-muted);
   font-size: 0.95rem;
   transition: 0.2s;
+  flex-grow: 1;
 }
 
 .nav-links a:hover {
@@ -63,6 +65,7 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   gap: 16px;
+  justify-content: space-between;
 }
 
 .btn-demo {
